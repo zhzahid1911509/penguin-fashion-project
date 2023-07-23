@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+    </style>
 </head>
 <body>
-    
+    <header class="h-full">
+        <nav class="pt-5 w-full m-auto">
+            <div class="flex flex-col sm:flex-row justify-around items-center">
+                <img class="w-[300px]" src="icons/logo.png" alt="">
+                <ul class="flex gap-8 items-center">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li> 
+                </ul>
+            </div>
+        </nav>
+        <div class="flex flex-col gap-24 items-center mt-20 md:flex-row">
+            <div class="w-full ml-24">
+                <h1 class="text-[60px] font-bold"><span class="text-orange-400">BE THE PENGUINS</span> OF WINTER</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ea porro totam vel omnis, blanditiis mollitia tempore officia facilis distinctio.</P>
+            </div>
+            <div class="w-full mr-24 flex justify-center items-center">
+                <img class="max-w-full max-h-full" src="images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
